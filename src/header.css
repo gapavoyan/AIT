@@ -36,4 +36,5 @@ header{
     list-style: none;
     color: #0e243c;
     z-index: 1000;
+    cursor: pointer;
 }

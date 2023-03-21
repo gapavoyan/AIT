@@ -20,6 +20,14 @@ function Header() {
 
                     </nav>
                 </div>
+                <div>
+                <select>
+                    <option>Հայերեն</option>
+                    <option>English</option>
+                    <option>Русский</option>
+                </select>
+                </div>
+                
             </header>
         </div>
     )
