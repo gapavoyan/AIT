@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f8f8f8;
+
+}
+.dasntac{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dasntac > h2{
+    font-size: 50px;
+}
+.dasntacner{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.das{
+    width: 380px;
+    height:360px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.nkarWebi{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.nkarWebi >  h3 {
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.nkarWebi > p {
+    font-family: MontserratArmLight;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+}
