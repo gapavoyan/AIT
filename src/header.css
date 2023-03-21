@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+}
+.imgDiv{
+    width: 130px;
+    border:none;
+    margin-left: 100px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.imgDiv > img{
+    width:100%;
+    border-radius: 100%;
+}
+.navDiv{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.navList{
+    display: flex;
+}
+.navList > li{
+    margin-left: 50px;
+    font-family: MontserratArmLight;
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+    color: #0e243c;
+    z-index: 1000;
+}
