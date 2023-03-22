@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerInform {
+    background-color: #f8f8f8;
+}
+
+.inform {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inform>p {
+    font-size: 50px;
+}
+
+.informAit {
+    width: 60%;
+    /* height: 100%; */
+}
+
+.divs {
+    width: 70%;
+    height: 180px;
+    /* border: 1px solid; */
+    margin: 80px;
+    margin-left: 80px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #fff;
+}
+
+.praktika {
+    margin-left: 150px;
+}
+
+.imgTiv {
+    width: 30%;
+    /* height: 100%; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.krknutyunInform>h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 20px;
+}
+
+.krknutyunInform>p {
+    margin: 15px;
+    font-family: MontserratArmLight;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.nkarPraktika {
+    margin-left: 35px;
+}
+
+.hatuk {
+    display: flex;
+}
+
+.globusiDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

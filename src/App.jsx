@@ -5,6 +5,7 @@ import './App.css'
 import Header from './header'
 import Welcome from './welcome'
 import Dasntac from './dasntac'
+import Inform from './inform'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Header/>
      <Welcome/>
      <Dasntac/>
+     <Inform/>
     </div>
   )
 }
