@@ -6,6 +6,7 @@ import Header from './header'
 import Welcome from './welcome'
 import Dasntac from './dasntac'
 import Inform from './inform'
+import Footer from './footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <Welcome/>
      <Dasntac/>
      <Inform/>
+     <Footer/>
     </div>
   )
 }

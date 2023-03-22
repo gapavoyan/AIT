@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+.footerDiv{
+    width: 80%;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.verevFooter{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nerqevFooter{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    margin-right: 10px;
+    font-size: 20px;
+}

@@ -13,6 +13,8 @@ header{
     margin-left: 100px;
     border-radius: 100%;
     background-color: #fff;
+    margin-top: 10px;
+
 }
 .imgDiv > img{
     width:100%;
