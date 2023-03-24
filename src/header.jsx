@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./header.css"
+import { LanguageContext } from './language'
+import Option from './option'
 function Header() {
+    const { language, setlanguage } = useContext(LanguageContext)
     return (
         <div>
             <header>
@@ -10,24 +13,39 @@ function Header() {
                 <div className='navDiv'>
                     <nav>
                         <ul className='navList'>
-                            <li>Գլխավոր</li>
-                            <li>Դասընթացներ</li>
-                            <li>Գրանցում</li>
-                            <li>Մեր մասին</li>
-                            <li>Բլոգ</li>
-                            <li>Կապ</li>
+                            <li>
+                                {
+                                    language === "hay" ? "Գլխավոր" : language === 'eng' ? "Home" : "Основной"
+                                }
+                            </li>
+                            <li>
+                                {
+                                    language === "hay" ? "Դասընթացներ" : language === 'eng' ? "Courses" : "Курсы"
+                                }</li>
+                            <li>
+                                {
+                                    language === "hay" ? "Գրանցում" : language === 'eng' ? "Registration" : "Регистрация"
+                                }</li>
+                            <li>
+                                {
+                                    language === "hay" ? "Մեր մասին" : language === 'eng' ? "Аbout us" : "О нас"
+                                }</li>
+                            <li>
+                                {
+                                    language === "hay" ? "Բլոգ" : language === 'eng' ? "Blog" : "Блог"
+                                }</li>
+                            <li>
+                                {
+                                    language === "hay" ? "Կապ" : language === 'eng' ? "Contact" : "Контакт"
+                                }</li>
                         </ul>
 
                     </nav>
                 </div>
                 <div>
-                <select>
-                    <option>Հայերեն</option>
-                    <option>English</option>
-                    <option>Русский</option>
-                </select>
+                    <Option />
                 </div>
-                
+
             </header>
         </div>
     )
