@@ -9,13 +9,17 @@ import Inform from './inform'
 import Footer from './footer'
 
 function App() {
+  const LanguageContext = React.createContext()
+
   return (
     <div className="App">
-     <Header/>
-     <Welcome/>
-     <Dasntac/>
-     <Inform/>
-     <Footer/>
+      <LanguageContext.Provider>
+        <Header/>
+        <Welcome />
+        <Dasntac />
+        <Inform />
+        <Footer />
+      </LanguageContext.Provider>
     </div>
   )
 }
